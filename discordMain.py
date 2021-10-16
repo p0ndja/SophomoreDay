@@ -64,7 +64,7 @@ async def on_message(mes: discord.message.Message):
         if studentCode[2:6] != "3040" and len(studentCode) < 10:
             await mes.author.send(f":x:รหัสนักศึกษา `{studentCode}` ไม่ถูกต้อง\nกรุณาตรวจสอบแล้วลองพิมพ์ใน #verify ใหม่")
             return
-        
+
         if studentCode[0:2] != "63":
             await mes.author.send(f":x: อนุญาตเฉพาะนักศึกษาชั้นปีที่ 2 (รหัส 63) เท่านั้น")
             return
@@ -99,6 +99,39 @@ async def on_message(mes: discord.message.Message):
 
         thatUser = await mes.guild.fetch_member(db.getDiscordIdFromStuCode(studentCode))
         await thatUser.edit(roles=[thisRole])
+
+    if mes.channel.id == 899009573061533726:
+        content = mes.content.strip() or ""
+        isFoundYet = False
+        nums = ""
+        for c in content:
+            if c in "0123456789":
+                nums += c
+                isFoundYet = True
+            else:
+                if isFoundYet:
+                    break
+        try:
+            thatNum = int(nums)
+        except:
+            await mes.channel.send(
+                f":x:กรุณาใส่เป็นตัวเลข เพื่อที่จะเข้ากลุ่ม {mes.author.mention}")
+            return
+
+        if thatNum < 1 or thatNum > rg.N_GROUP:
+            await mes.channel.send(
+                f":x:กลุ่มจะอยู่ที่ กลุ่มที่ 1 ถึง กลุ่มที่ {rg.N_GROUP} เท่านั้น {mes.author.mention}")
+            return
+
+        sophoThisRole = discord.utils.get(mes.guild.roles, name="Sophomore")
+        groupThisRole = discord.utils.get(
+            mes.guild.roles, name=f"Group {thatNum}")
+
+        thatUser = mes.author
+        await thatUser.edit(roles=[sophoThisRole, groupThisRole])
+
+        await mes.channel.send(
+            f":ballot_box_with_check:เปลี่ยนเป็นกลุ่ม {thatNum} สำเร็จ {mes.author.mention}")
 
     if mes.channel.id == 857939411743670283:
         #!Danger zone
