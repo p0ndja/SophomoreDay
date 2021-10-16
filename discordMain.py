@@ -64,6 +64,10 @@ async def on_message(mes: discord.message.Message):
         if studentCode[2:6] != "3040" and len(studentCode) < 10:
             await mes.author.send(f":x:รหัสนักศึกษา `{studentCode}` ไม่ถูกต้อง\nกรุณาตรวจสอบแล้วลองพิมพ์ใน #verify ใหม่")
             return
+        
+        if studentCode[0:2] != "63":
+            await mes.author.send(f":x: อนุญาตเฉพาะนักศึกษาชั้นปีที่ 2 (รหัส 63) เท่านั้น")
+            return
 
         res = db.getDataOfStuCode(studentCode)
 
