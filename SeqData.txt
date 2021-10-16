@@ -1,0 +1,240 @@
+Group 1:
+  Tarn 1: 1
+  Tarn 2: 5
+  Tarn 3: 4
+  Tarn 4: 3
+  Tarn 5: 2
+Group 10:
+  Tarn 1: 5
+  Tarn 2: 4
+  Tarn 3: 3
+  Tarn 4: 2
+  Tarn 5: 1
+Group 11:
+  Tarn 1: 6
+  Tarn 2: 10
+  Tarn 3: 9
+  Tarn 4: 8
+  Tarn 5: 7
+Group 12:
+  Tarn 1: 6
+  Tarn 2: 10
+  Tarn 3: 9
+  Tarn 4: 8
+  Tarn 5: 7
+Group 13:
+  Tarn 1: 7
+  Tarn 2: 6
+  Tarn 3: 10
+  Tarn 4: 9
+  Tarn 5: 8
+Group 14:
+  Tarn 1: 7
+  Tarn 2: 6
+  Tarn 3: 10
+  Tarn 4: 9
+  Tarn 5: 8
+Group 15:
+  Tarn 1: 8
+  Tarn 2: 7
+  Tarn 3: 6
+  Tarn 4: 10
+  Tarn 5: 9
+Group 16:
+  Tarn 1: 8
+  Tarn 2: 7
+  Tarn 3: 6
+  Tarn 4: 10
+  Tarn 5: 9
+Group 17:
+  Tarn 1: 9
+  Tarn 2: 8
+  Tarn 3: 7
+  Tarn 4: 6
+  Tarn 5: 10
+Group 18:
+  Tarn 1: 9
+  Tarn 2: 8
+  Tarn 3: 7
+  Tarn 4: 6
+  Tarn 5: 10
+Group 19:
+  Tarn 1: 10
+  Tarn 2: 9
+  Tarn 3: 8
+  Tarn 4: 7
+  Tarn 5: 6
+Group 2:
+  Tarn 1: 1
+  Tarn 2: 5
+  Tarn 3: 4
+  Tarn 4: 3
+  Tarn 5: 2
+Group 20:
+  Tarn 1: 10
+  Tarn 2: 9
+  Tarn 3: 8
+  Tarn 4: 7
+  Tarn 5: 6
+Group 21:
+  Tarn 1: 1
+  Tarn 2: 4
+  Tarn 3: 2
+  Tarn 4: 5
+  Tarn 5: 3
+Group 22:
+  Tarn 1: 1
+  Tarn 2: 4
+  Tarn 3: 2
+  Tarn 4: 5
+  Tarn 5: 3
+Group 23:
+  Tarn 1: 2
+  Tarn 2: 5
+  Tarn 3: 3
+  Tarn 4: 1
+  Tarn 5: 4
+Group 24:
+  Tarn 1: 2
+  Tarn 2: 5
+  Tarn 3: 3
+  Tarn 4: 1
+  Tarn 5: 4
+Group 25:
+  Tarn 1: 3
+  Tarn 2: 1
+  Tarn 3: 4
+  Tarn 4: 2
+  Tarn 5: 5
+Group 26:
+  Tarn 1: 3
+  Tarn 2: 1
+  Tarn 3: 4
+  Tarn 4: 2
+  Tarn 5: 5
+Group 27:
+  Tarn 1: 4
+  Tarn 2: 2
+  Tarn 3: 5
+  Tarn 4: 3
+  Tarn 5: 1
+Group 28:
+  Tarn 1: 4
+  Tarn 2: 2
+  Tarn 3: 5
+  Tarn 4: 3
+  Tarn 5: 1
+Group 29:
+  Tarn 1: 5
+  Tarn 2: 3
+  Tarn 3: 1
+  Tarn 4: 4
+  Tarn 5: 2
+Group 3:
+  Tarn 1: 2
+  Tarn 2: 1
+  Tarn 3: 5
+  Tarn 4: 4
+  Tarn 5: 3
+Group 30:
+  Tarn 1: 5
+  Tarn 2: 3
+  Tarn 3: 1
+  Tarn 4: 4
+  Tarn 5: 2
+Group 31:
+  Tarn 1: 6
+  Tarn 2: 9
+  Tarn 3: 7
+  Tarn 4: 10
+  Tarn 5: 8
+Group 32:
+  Tarn 1: 6
+  Tarn 2: 9
+  Tarn 3: 7
+  Tarn 4: 10
+  Tarn 5: 8
+Group 33:
+  Tarn 1: 7
+  Tarn 2: 10
+  Tarn 3: 8
+  Tarn 4: 6
+  Tarn 5: 9
+Group 34:
+  Tarn 1: 7
+  Tarn 2: 10
+  Tarn 3: 8
+  Tarn 4: 6
+  Tarn 5: 9
+Group 35:
+  Tarn 1: 8
+  Tarn 2: 6
+  Tarn 3: 9
+  Tarn 4: 7
+  Tarn 5: 10
+Group 36:
+  Tarn 1: 8
+  Tarn 2: 6
+  Tarn 3: 9
+  Tarn 4: 7
+  Tarn 5: 10
+Group 37:
+  Tarn 1: 9
+  Tarn 2: 7
+  Tarn 3: 10
+  Tarn 4: 8
+  Tarn 5: 6
+Group 38:
+  Tarn 1: 9
+  Tarn 2: 7
+  Tarn 3: 10
+  Tarn 4: 8
+  Tarn 5: 6
+Group 39:
+  Tarn 1: 10
+  Tarn 2: 8
+  Tarn 3: 6
+  Tarn 4: 9
+  Tarn 5: 7
+Group 4:
+  Tarn 1: 2
+  Tarn 2: 1
+  Tarn 3: 5
+  Tarn 4: 4
+  Tarn 5: 3
+Group 40:
+  Tarn 1: 10
+  Tarn 2: 8
+  Tarn 3: 6
+  Tarn 4: 9
+  Tarn 5: 7
+Group 5:
+  Tarn 1: 3
+  Tarn 2: 2
+  Tarn 3: 1
+  Tarn 4: 5
+  Tarn 5: 4
+Group 6:
+  Tarn 1: 3
+  Tarn 2: 2
+  Tarn 3: 1
+  Tarn 4: 5
+  Tarn 5: 4
+Group 7:
+  Tarn 1: 4
+  Tarn 2: 3
+  Tarn 3: 2
+  Tarn 4: 1
+  Tarn 5: 5
+Group 8:
+  Tarn 1: 4
+  Tarn 2: 3
+  Tarn 3: 2
+  Tarn 4: 1
+  Tarn 5: 5
+Group 9:
+  Tarn 1: 5
+  Tarn 2: 4
+  Tarn 3: 3
+  Tarn 4: 2
+  Tarn 5: 1
